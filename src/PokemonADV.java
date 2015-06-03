@@ -5,6 +5,8 @@ public class PokemonADV {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		
 		String player,rivalname,charmander, squirtle, bulbasaur;
 		String choice1,choice2;
 		
@@ -13,8 +15,8 @@ public class PokemonADV {
 		System.out.println("Welcome to the world of pokemon");
 		System.out.println("My name is Oak!");
 		System.out.println("This world is inhabited ...");
+		System.out.println("ϞϞ(๑⚈ ․̫ ⚈๑)∩");  
 		System.out.println("...by creatures called pokemon!");
-		// insert pikachu here!!!!! ϞϞ(๑⚈ ․̫ ⚈๑)∩ 
 		System.out.println("Some people keep pokemon as pets!");
 		System.out.println("I spend my life studying them.");
 		System.out.println("First, are you a 'boy' or a 'girl'?");
@@ -50,7 +52,7 @@ public class PokemonADV {
 			System.out.println("Please type in 'Go downstairs' or 'Play Video games'. Restart the program to continue.");
 		}
 		//endloop
-		
+		System.out.println("Would you like to 'Watch TV' 'Confront Mother' or 'Leave'");
 		
 	}
 

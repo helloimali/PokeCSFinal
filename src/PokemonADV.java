@@ -7,8 +7,11 @@ public class PokemonADV {
 		// TODO Auto-generated method stub
 		
 		
-		String player,rivalname,charmander, squirtle, bulbasaur;
-		String choice1,choice2;
+		String player,playerpoke;
+		String charmander, squirtle, bulbasaur;
+		String choice1,choice2,choicepoke;
+		String badpeeps,badpoke,rivalname,rivalpoke;
+		boolean playerdeath,rivaldeath;
 		
 		System.out.println("???: Hello world!");
 		System.out.println("???: Glad to meet you!");
@@ -107,7 +110,62 @@ public class PokemonADV {
 		System.out.println("OAK: Will you choose 'Squirtle', the water type?");
 		System.out.println("OAK: Or will you choose 'Bulbasaur', the grass type?");
 		
+		choicepoke = input.nextLine();
 		
+		if(choicepoke.equalsIgnoreCase("Charmander")){
+			badpeeps="Team Aqua";
+			badpoke	= "Blastoise";
+			playerpoke = "Charmander";
+			rivalpoke = "Squirtle";
+			
+			System.out.println(rivalname + ": Hey " + player + ", we should battle!");
+			System.out.println(rivalname + "Go " + rivalpoke);
+			playerdeath = false;
+			rivaldeath = false;
+			System.out.println(rivalname + " has thrown out " + rivalpoke);
+			
+			int playerpokehealth = 20;
+			int rivalpokehealth = 20;
+			
+			while(playerdeath == false && rivaldeath == false){
+				System.out.println("What will " + playerpoke + " do!");
+				System.out.println("Moves: 'Pound' or 'Growl'");
+				
+				
+			};
+			//endwhile
+			
+		}
+		
+		//end charmander
+		
+		
+		else if(choicepoke.equalsIgnoreCase("Squirtle")){
+			badpeeps="Team Rocket";
+			badpoke	= "Persian";
+			playerpoke = "Squirtle";
+			rivalpoke = "Bulbasaur";
+			System.out.println(rivalname);	
+		}
+		//end squirtle
+		
+		
+		else if(choicepoke.equalsIgnoreCase("Bulbasaur")){
+			badpeeps="Team Magma";
+			badpoke	= "Charizard";
+			playerpoke = "Bulbasaur";
+			rivalpoke = "Charmander";
+			System.out.println(rivalname);	
+		}
+		//end bulbasaur
+		
+		
+		
+		else{
+			System.out.println("Please type in 'Charmander' 'Squirtle' or 'Bulbasaur'. Restart the program to continue.");
+			System.exit(0);
+		}
+		//if you dun goofed m8
 	}
 
 }

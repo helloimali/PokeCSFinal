@@ -9,7 +9,7 @@ public class PokemonADV {
 		
 		String player,playerpoke;
 		String charmander, squirtle, bulbasaur;
-		String choice1,choice2,choicepoke;
+		String choice1,choice2,choicepoke,moveset;
 		String badpeeps,badpoke,rivalname,rivalpoke;
 		boolean playerdeath,rivaldeath;
 		
@@ -26,9 +26,10 @@ public class PokemonADV {
 		Scanner input = new Scanner(System.in);
 		player = input.nextLine();
 		System.out.println("OAK: What's your name!");
-		player = input.nextLine();
+		player = input.nextLine().toUpperCase();
 		System.out.println("OAK: What's your rivals name?");
-		rivalname = input.nextLine();
+		rivalname = input.nextLine().toUpperCase();
+		
 		System.out.println("OAK: Welcome to the world of pokemon");
 		System.out.println("- Your room -");
 		System.out.println( player + ": Todays the day I get my pokemon! Should I take Charmander the fire type, Squirtle the water type, or Bulbasaur the grass type");
@@ -69,7 +70,7 @@ public class PokemonADV {
 			System.out.println("MOM: *turns TV off* Let him be, he left us");
 			System.out.println( player + ": Yea but... don't you sometimes miss him?");
 			System.out.println("MOM: No I don't, because he's a lying sh-");
-			System.out.println("MOM DON'T CURSE!");
+			System.out.println(player + ": MOM DON'T CURSE!");
 			System.out.println("MOM: Sorry honey!");
 			System.out.println("MOM: On the bright side, are you excited for your pokemon adventure?");
 			System.out.println( player + ": I sure am mom!");
@@ -119,21 +120,57 @@ public class PokemonADV {
 			rivalpoke = "Squirtle";
 			
 			System.out.println(rivalname + ": Hey " + player + ", we should battle!");
-			System.out.println(rivalname + "Go " + rivalpoke);
+			System.out.println(rivalname + " sent out " + rivalpoke);
 			playerdeath = false;
 			rivaldeath = false;
-			System.out.println(rivalname + " has thrown out " + rivalpoke);
 			
 			int playerpokehealth = 20;
 			int rivalpokehealth = 20;
-			
+
 			while(playerdeath == false && rivaldeath == false){
 				System.out.println("What will " + playerpoke + " do!");
 				System.out.println("Moves: 'Pound' or 'Growl'");
-				
-				
+				moveset = input.nextLine();
+				if (moveset.equalsIgnoreCase("Pound")){
+					System.out.println( playerpoke + " used Pound!");
+					rivalpokehealth = rivalpokehealth - 10;
+					System.out.println(rivalname +"'s "+ rivalpoke + " used Growl!");
+					System.out.println(playerpoke + "'s defense went down");
+					System.out.println("Your health is " + playerpokehealth);
+				}
+				else if (moveset.equalsIgnoreCase("Growl")){
+					System.out.println(playerpoke + " used Growl!");
+					System.out.println(playerpoke + "'s defense went down");
+					System.out.println(rivalname +"'s "+ rivalpoke + " used Growl!");
+					System.out.println(playerpoke + "'s defense went down");
+					System.out.println("Your health is " + playerpokehealth);
+				}
+				else{
+					System.out.println("Please type in 'Pound' or 'Growl'. Restart the program to continue.");
+					System.exit(0);
+				}
+				//end loop
+				//check death
+				if (rivalpokehealth <= 0){
+					rivaldeath = true;
+					System.out.println(rivalname +"'s "+ rivalpoke + " has fainted!");
+					System.out.println(rivalname +": Wow, you're so strong!");
+				}
+				else if (playerpokehealth <= 0){
+					playerdeath = true;
+					System.out.println(player +"'s "+ playerpoke + " has fainted!");
+					System.out.println(rivalname +"haha I win! This part isn't even suposed to be possilble! I don't even know why this If statement is here!");
+					System.out.println(" . . . " + player +"has blacked out!");
+					System.out.println("Restart the program to continue.");
+					System.exit(0);
+				}
+			//end death check
 			};
 			//endwhile
+			
+			//challnge gym leader beggining 
+			System.out.println("OAK: Hey " + player + " you should challange Jessie Pinkman!");
+			System.out.println("OAK: He's the gym leader in Albuquerque town!");
 			
 		}
 		
@@ -146,6 +183,59 @@ public class PokemonADV {
 			playerpoke = "Squirtle";
 			rivalpoke = "Bulbasaur";
 			System.out.println(rivalname);	
+			
+			System.out.println(rivalname + ": Hey " + player + ", we should battle!");
+			System.out.println(rivalname + " sent out " + rivalpoke);
+			playerdeath = false;
+			rivaldeath = false;
+			
+			int playerpokehealth = 20;
+			int rivalpokehealth = 20;
+
+			while(playerdeath == false && rivaldeath == false){
+				System.out.println("What will " + playerpoke + " do!");
+				System.out.println("Moves: 'Pound' or 'Growl'");
+				moveset = input.nextLine();
+				if (moveset.equalsIgnoreCase("Pound")){
+					System.out.println( playerpoke + " used Pound!");
+					rivalpokehealth = rivalpokehealth - 10;
+					System.out.println(rivalname +"'s "+ rivalpoke + " used Growl!");
+					System.out.println(playerpoke + "'s defense went down");
+					System.out.println("Your health is " + playerpokehealth);
+				}
+				else if (moveset.equalsIgnoreCase("Growl")){
+					System.out.println(playerpoke + " used Growl!");
+					System.out.println(playerpoke + "'s defense went down");
+					System.out.println(rivalname +"'s "+ rivalpoke + " used Growl!");
+					System.out.println(playerpoke + "'s defense went down");
+					System.out.println("Your health is " + playerpokehealth);
+				}
+				else{
+					System.out.println("Please type in 'Pound' or 'Growl'. Restart the program to continue.");
+					System.exit(0);
+				}
+				//end loop
+				//check death
+				if (rivalpokehealth <= 0){
+					rivaldeath = true;
+					System.out.println(rivalname +"'s "+ rivalpoke + " has fainted!");
+					System.out.println(rivalname +": Wow, you're so strong!");
+				}
+				else if (playerpokehealth <= 0){
+					playerdeath = true;
+					System.out.println(player +"'s "+ playerpoke + " has fainted!");
+					System.out.println(rivalname +"haha I win! This part isn't even suposed to be possilble! I don't even know why this If statement is here!");
+					System.out.println(" . . . " + player +"has blacked out!");
+					System.out.println("Restart the program to continue.");
+					System.exit(0);
+				}
+			//end death check
+			};
+			//endwhile
+			
+			//challnge gym leader beggining 
+			System.out.println("OAK: Hey " + player + " you should challange Hank Schrader!");
+			System.out.println("OAK: He's the gym leader in DEA town!");
 		}
 		//end squirtle
 		
@@ -156,6 +246,59 @@ public class PokemonADV {
 			playerpoke = "Bulbasaur";
 			rivalpoke = "Charmander";
 			System.out.println(rivalname);	
+			
+			System.out.println(rivalname + ": Hey " + player + ", we should battle!");
+			System.out.println(rivalname + " sent out " + rivalpoke);
+			playerdeath = false;
+			rivaldeath = false;
+			
+			int playerpokehealth = 20;
+			int rivalpokehealth = 20;
+
+			while(playerdeath == false && rivaldeath == false){
+				System.out.println("What will " + playerpoke + " do!");
+				System.out.println("Moves: 'Pound' or 'Growl'");
+				moveset = input.nextLine();
+				if (moveset.equalsIgnoreCase("Pound")){
+					System.out.println( playerpoke + " used Pound!");
+					rivalpokehealth = rivalpokehealth - 10;
+					System.out.println(rivalname +"'s "+ rivalpoke + " used Growl!");
+					System.out.println(playerpoke + "'s defense went down");
+					System.out.println("Your health is " + playerpokehealth);
+				}
+				else if (moveset.equalsIgnoreCase("Growl")){
+					System.out.println(playerpoke + " used Growl!");
+					System.out.println(playerpoke + "'s defense went down");
+					System.out.println(rivalname +"'s "+ rivalpoke + " used Growl!");
+					System.out.println(playerpoke + "'s defense went down");
+					System.out.println("Your health is " + playerpokehealth);
+				}
+				else{
+					System.out.println("Please type in 'Pound' or 'Growl'. Restart the program to continue.");
+					System.exit(0);
+				}
+				//end loop
+				//check death
+				if (rivalpokehealth <= 0){
+					rivaldeath = true;
+					System.out.println(rivalname +"'s "+ rivalpoke + " has fainted!");
+					System.out.println(rivalname +": Wow, you're so strong!");
+				}
+				else if (playerpokehealth <= 0){
+					playerdeath = true;
+					System.out.println(player +"'s "+ playerpoke + " has fainted!");
+					System.out.println(rivalname +"haha I win! This part isn't even suposed to be possilble! I don't even know why this If statement is here!");
+					System.out.println(" . . . " + player +"has blacked out!");
+					System.out.println("Restart the program to continue.");
+					System.exit(0);
+				}
+			//end death check
+			};
+			//endwhile
+			
+			//challnge gym leader beggining 
+			System.out.println("OAK: Hey " + player + " you should challange Walter White!");
+			System.out.println("OAK: He's the gym leader in New Mexico!");
 		}
 		//end bulbasaur
 		

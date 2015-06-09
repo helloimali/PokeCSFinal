@@ -204,10 +204,10 @@ public class PokemonADV {
 			        	gymjpokehealth = gymjpokehealth - 7;
 			        	if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			            System.out.println(rivalname +"'s "+ rivalpoke + " used tackel!");
+			            System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2- 12;
 			        	}
-			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
+			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
 			            System.out.println("Your health is " + playerpokehealth);
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
@@ -216,7 +216,7 @@ public class PokemonADV {
 			        	gymjpokehealth = gymjpokehealth - 15;
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackel!");
+			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
@@ -228,7 +228,7 @@ public class PokemonADV {
 		                System.out.println(playerpoke + "'s defense went down");
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackel!");
+			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
@@ -250,6 +250,7 @@ public class PokemonADV {
 		        else if (playerpokehealth2 <= 0){
 		                playerdeath = true;
 		                System.out.println(player +"'s "+ playerpoke + " has fainted!");
+		                System.out.println(player +" I... I lost.... I can't be the best anymore...");
 		                System.out.println(" . . . " + player +"has blacked out!");
 		                System.out.println("Restart the program to continue.");
 		                System.exit(0);
@@ -327,6 +328,88 @@ public class PokemonADV {
 			System.out.println("OAK: He's the gym leader in DEA town!");
 			System.out.println(player + ": That's a good idea! I'll go right now!");
 			System.out.println(" - DEA town - ");
+			
+			
+			playerdeath = false;
+			gymj = false;
+			String gymleader = "Hank Schrader";
+			String gympoke = "Nidoking";
+			
+			int playerpokehealth2 = 20;
+			int gymjpokehealth = 20;
+			
+			System.out.println(gymleader + " sent out " + gympoke);
+			System.out.println("You sent out " + playerpoke);
+			
+			while(playerdeath == false && gymj == false){
+		        System.out.println("What will " + playerpoke + " do!");
+		        System.out.println("Moves: 'Pound', 'Bubble Beam', or 'Growl'");
+				moveset = input.nextLine();
+				if (moveset.equalsIgnoreCase("Pound")){
+			        	System.out.println( playerpoke + " used Pound!");
+			        	gymjpokehealth = gymjpokehealth - 7;
+			        	if (gymjpokehealth <= 0){gymjpokehealth = 0; }
+			        	if (gymjpokehealth >= 0){
+			            System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			            playerpokehealth2 = playerpokehealth2- 12;
+			        	}
+			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
+			            System.out.println("Your health is " + playerpokehealth);
+			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
+			        }
+			        else if (moveset.equalsIgnoreCase("Bubble Beam")){
+			        	System.out.println( playerpoke + " used Bubble Beam!");
+			        	gymjpokehealth = gymjpokehealth - 15;
+		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
+			        	if (gymjpokehealth >= 0){
+			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			            playerpokehealth2 = playerpokehealth2 - 12;
+			        	}
+			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
+			            System.out.println("Your health is " + playerpokehealth2);
+			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
+			        }
+			        else if (moveset.equalsIgnoreCase("Growl")){
+		                System.out.println(playerpoke + " used Growl!");
+		                System.out.println(playerpoke + "'s defense went down");
+		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
+			        	if (gymjpokehealth >= 0){
+			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			            playerpokehealth2 = playerpokehealth2 - 12;
+			        	}
+			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
+			            System.out.println("Your health is " + playerpokehealth);
+			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
+			        }
+			        else{
+			                System.out.println("Please type in 'Pound', 'Bubble Beam' or 'Growl'. Restart the program to continue.");
+			                System.exit(0);
+			        }
+
+		        //check death
+		        if (gymjpokehealth <= 0){
+		        		gymj = true;
+		                System.out.println(gymleader +"'s "+ gympoke + " has fainted!");
+		                System.out.println(gymleader +": Well... you won fair and square. Here's your badge... beach");
+		                System.out.println("You received the DEA Badge!");
+		        }
+		        else if (playerpokehealth2 <= 0){
+		                playerdeath = true;
+		                System.out.println(player +"'s "+ playerpoke + " has fainted!");
+		                System.out.println(player +" I... I lost.... I can't be the best anymore...");
+		                System.out.println(" . . . " + player +"has blacked out!");
+		                System.out.println("Restart the program to continue.");
+		                System.exit(0);
+		        }
+		//end death check
+				
+				
+			}
+			
+			//finish while statement for gym
+			
+			
+			
 		}
 		//end squirtle
 		
@@ -392,11 +475,89 @@ public class PokemonADV {
 			System.out.println("OAK: He's the gym leader in New Mexico!");
 			System.out.println(player + ": That's a good idea! I'll go right now!");
 			System.out.println(" - New Mexico - ");
+			
+			
+			playerdeath = false;
+			gymj = false;
+			String gymleader = "Walter White";
+			String gympoke = "Missingno";
+			
+			int playerpokehealth2 = 20;
+			int gymjpokehealth = 20;
+			
+			System.out.println(gymleader + " sent out " + gympoke);
+			System.out.println("You sent out " + playerpoke);
+			
+			while(playerdeath == false && gymj == false){
+		        System.out.println("What will " + playerpoke + " do!");
+		        System.out.println("Moves: 'Pound', 'Razor Leaf', or 'Growl'");
+				moveset = input.nextLine();
+				if (moveset.equalsIgnoreCase("Pound")){
+			        	System.out.println( playerpoke + " used Pound!");
+			        	gymjpokehealth = gymjpokehealth - 7;
+			        	if (gymjpokehealth <= 0){gymjpokehealth = 0; }
+			        	if (gymjpokehealth >= 0){
+			            System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			            playerpokehealth2 = playerpokehealth2- 12;
+			        	}
+			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
+			            System.out.println("Your health is " + playerpokehealth);
+			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
+			        }
+			        else if (moveset.equalsIgnoreCase("Razor Leaf")){
+			        	System.out.println( playerpoke + " used Razor Leaf!");
+			        	gymjpokehealth = gymjpokehealth - 15;
+		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
+			        	if (gymjpokehealth >= 0){
+			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			            playerpokehealth2 = playerpokehealth2 - 12;
+			        	}
+			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
+			            System.out.println("Your health is " + playerpokehealth2);
+			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
+			        }
+			        else if (moveset.equalsIgnoreCase("Growl")){
+		                System.out.println(playerpoke + " used Growl!");
+		                System.out.println(playerpoke + "'s defense went down");
+		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
+			        	if (gymjpokehealth >= 0){
+			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			            playerpokehealth2 = playerpokehealth2 - 12;
+			        	}
+			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
+			            System.out.println("Your health is " + playerpokehealth);
+			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
+			        }
+			        else{
+			                System.out.println("Please type in 'Pound', 'Razor Leaf' or 'Growl'. Restart the program to continue.");
+			                System.exit(0);
+			        }
+
+		        //check death
+		        if (gymjpokehealth <= 0){
+		        		gymj = true;
+		                System.out.println(gymleader +"'s "+ gympoke + " has fainted!");
+		                System.out.println(gymleader +": Well... you won fair and square. Here's your badge... beach");
+		                System.out.println("You received the Crystal Badge!");
+		        }
+		        else if (playerpokehealth2 <= 0){
+		                playerdeath = true;
+		                System.out.println(player +"'s "+ playerpoke + " has fainted!");
+		                System.out.println(player +" I... I lost.... I can't be the best anymore...");
+		                System.out.println(" . . . " + player +"has blacked out!");
+		                System.out.println("Restart the program to continue.");
+		                System.exit(0);
+		        }
+		//end death check
+				
+				
+			}
+			
+			//finish while statement for gym
+			
 		}
 		//end bulbasaur
-		
-		
-		
+
 		else{
 			System.out.println("Please type in 'Charmander' 'Squirtle' or 'Bulbasaur'. Restart the program to continue.");
 			System.exit(0);

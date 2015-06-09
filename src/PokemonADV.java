@@ -10,7 +10,7 @@ public class PokemonADV {
 		String player,playerpoke;
 		String charmander, squirtle, bulbasaur;
 		String choice1,choice2,choicepoke,moveset;
-		String badpeeps,badpoke,rivalname,rivalpoke;
+		String badpeeps,badpoke,rivalname,rivalpoke,eve2;
 		boolean playerdeath,rivaldeath,gymj,gymh,gymw;
 		
 		System.out.println("???: Hello world!");
@@ -118,6 +118,7 @@ public class PokemonADV {
 			badpoke	= "Blastoise";
 			playerpoke = "Charmander";
 			rivalpoke = "Squirtle";
+			eve2 = "Charmeleon";
 			
 			System.out.println(rivalname + ": Hey " + player + ", we should battle!");
 			System.out.println(rivalname + " sent out " + rivalpoke);
@@ -246,6 +247,11 @@ public class PokemonADV {
 		                System.out.println(gymleader +"'s "+ gympoke + " has fainted!");
 		                System.out.println(gymleader +": Well... you won fair and square. Here's your badge... beach");
 		                System.out.println("You received the Beach Badge!");
+
+		    			System.out.println("What?");
+		    			System.out.println(playerpoke + " is evolving!");
+		    			System.out.println("Congratulations your " + playerpoke + " has evolved to " + eve2);
+		    			playerpoke = eve2;
 		        }
 		        else if (playerpokehealth2 <= 0){
 		                playerdeath = true;
@@ -272,8 +278,8 @@ public class PokemonADV {
 			badpoke	= "Persian";
 			playerpoke = "Squirtle";
 			rivalpoke = "Bulbasaur";
-			System.out.println(rivalname);	
-			
+			eve2 = "Wartortle";
+	
 			System.out.println(rivalname + ": Hey " + player + ", we should battle!");
 			System.out.println(rivalname + " sent out " + rivalpoke);
 			playerdeath = false;
@@ -392,6 +398,11 @@ public class PokemonADV {
 		                System.out.println(gymleader +"'s "+ gympoke + " has fainted!");
 		                System.out.println(gymleader +": Well... you won fair and square. Here's your badge... beach");
 		                System.out.println("You received the DEA Badge!");
+
+		    			System.out.println("What?");
+		    			System.out.println(playerpoke + " is evolving!");
+		    			System.out.println("Congratulations your " + playerpoke + " has evolved to " + eve2);
+		    			playerpoke = eve2;
 		        }
 		        else if (playerpokehealth2 <= 0){
 		                playerdeath = true;
@@ -419,7 +430,7 @@ public class PokemonADV {
 			badpoke	= "Charizard";
 			playerpoke = "Bulbasaur";
 			rivalpoke = "Charmander";
-			System.out.println(rivalname);	
+			eve2 = "Ivysaur";
 			
 			System.out.println(rivalname + ": Hey " + player + ", we should battle!");
 			System.out.println(rivalname + " sent out " + rivalpoke);
@@ -539,6 +550,11 @@ public class PokemonADV {
 		                System.out.println(gymleader +"'s "+ gympoke + " has fainted!");
 		                System.out.println(gymleader +": Well... you won fair and square. Here's your badge... beach");
 		                System.out.println("You received the Crystal Badge!");
+		                
+		    			System.out.println("What?");
+		    			System.out.println(playerpoke + " is evolving!");
+		    			System.out.println("Congratulations your " + playerpoke + " has evolved to " + eve2);
+		    			playerpoke = eve2;
 		        }
 		        else if (playerpokehealth2 <= 0){
 		                playerdeath = true;

@@ -164,7 +164,7 @@ public class PokemonADV {
 					playerdeath = true;
 					System.out.println(player +"'s "+ playerpoke + " has fainted!");
 					System.out.println(rivalname +"haha I win! This part isn't even suposed to be possilble! I don't even know why this If statement is here!");
-					System.out.println(" . . . " + player +"has blacked out!");
+					System.out.println(" . . . " + player +" has blacked out!");
 					System.out.println("Restart the program to continue.");
 					System.exit(0);
 				}
@@ -206,7 +206,7 @@ public class PokemonADV {
 			        	gymjpokehealth = gymjpokehealth - 7;
 			        	if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			            System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			            System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2- 12;
 			        	}
 			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
@@ -218,7 +218,7 @@ public class PokemonADV {
 			        	gymjpokehealth = gymjpokehealth - 15;
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			        	System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
@@ -230,7 +230,7 @@ public class PokemonADV {
 		                System.out.println(playerpoke + "'s defense went down");
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			        	System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
@@ -258,7 +258,7 @@ public class PokemonADV {
 		                playerdeath = true;
 		                System.out.println(player +"'s "+ playerpoke + " has fainted!");
 		                System.out.println(player +" I... I lost.... I can't be the best anymore...");
-		                System.out.println(" . . . " + player +"has blacked out!");
+		                System.out.println(" . . . " + player +" has blacked out!");
 		                System.out.println("Restart the program to continue.");
 		                System.exit(0);
 		        }
@@ -302,7 +302,7 @@ public class PokemonADV {
 			        	gymjpokehealth = gymjpokehealth - 7;
 			        	if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			            System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			            System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2- 12;
 			        	}
 			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
@@ -314,7 +314,7 @@ public class PokemonADV {
 			        	gymjpokehealth = gymjpokehealth - 15;
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			        	System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
@@ -326,7 +326,7 @@ public class PokemonADV {
 		                System.out.println(playerpoke + "'s defense went down");
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			        	System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
@@ -338,7 +338,7 @@ public class PokemonADV {
 		                gymjpokehealth = gymjpokehealth - 20;
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			        	System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
@@ -356,7 +356,6 @@ public class PokemonADV {
 		                System.out.println(gymleader +"'s "+ gympoke + " has fainted!");
 		                System.out.println(player + ": THAT'S RIGHT, YOU RUN!");
 		    			System.out.println(player + ": What?");
-		    			System.out.println("What?");
 		    			System.out.println(playerpoke + " is evolving!");
 		    			System.out.println("Congratulations your " + playerpoke + " has evolved to " + eve3);
 		    			playerpoke = eve3;
@@ -365,7 +364,7 @@ public class PokemonADV {
 		                playerdeath = true;
 		                System.out.println(player +"'s "+ playerpoke + " has fainted!");
 		                System.out.println(player +" I... I lost.... I can't be the best anymore...");
-		                System.out.println(" . . . " + player +"has blacked out!");
+		                System.out.println(" . . . " + player +" has blacked out!");
 		                System.out.println("Restart the program to continue.");
 		                System.exit(0);
 		        }
@@ -434,7 +433,7 @@ public class PokemonADV {
 					playerdeath = true;
 					System.out.println(player +"'s "+ playerpoke + " has fainted!");
 					System.out.println(rivalname +"haha I win! This part isn't even suposed to be possilble! I don't even know why this If statement is here!");
-					System.out.println(" . . . " + player +"has blacked out!");
+					System.out.println(" . . . " + player +" has blacked out!");
 					System.out.println("Restart the program to continue.");
 					System.exit(0);
 				}
@@ -521,7 +520,7 @@ public class PokemonADV {
 		                playerdeath = true;
 		                System.out.println(player +"'s "+ playerpoke + " has fainted!");
 		                System.out.println(player +" I... I lost.... I can't be the best anymore...");
-		                System.out.println(" . . . " + player +"has blacked out!");
+		                System.out.println(" . . . " + player +" has blacked out!");
 		                System.out.println("Restart the program to continue.");
 		                System.exit(0);
 		        }
@@ -619,7 +618,6 @@ public class PokemonADV {
 		                System.out.println(gymleader +"'s "+ gympoke + " has fainted!");
 		                System.out.println(player + ": THAT'S RIGHT, YOU RUN!");
 		    			System.out.println(player + ": What?");
-		    			System.out.println("What?");
 		    			System.out.println(playerpoke + " is evolving!");
 		    			System.out.println("Congratulations your " + playerpoke + " has evolved to " + eve3);
 		    			playerpoke = eve3;
@@ -628,7 +626,7 @@ public class PokemonADV {
 		                playerdeath = true;
 		                System.out.println(player +"'s "+ playerpoke + " has fainted!");
 		                System.out.println(player +" I... I lost.... I can't be the best anymore...");
-		                System.out.println(" . . . " + player +"has blacked out!");
+		                System.out.println(" . . . " + player +" has blacked out!");
 		                System.out.println("Restart the program to continue.");
 		                System.exit(0);
 		        }
@@ -696,7 +694,7 @@ public class PokemonADV {
 					playerdeath = true;
 					System.out.println(player +"'s "+ playerpoke + " has fainted!");
 					System.out.println(rivalname +"haha I win! This part isn't even suposed to be possilble! I don't even know why this If statement is here!");
-					System.out.println(" . . . " + player +"has blacked out!");
+					System.out.println(" . . . " + player +" has blacked out!");
 					System.out.println("Restart the program to continue.");
 					System.exit(0);
 				}
@@ -783,7 +781,7 @@ public class PokemonADV {
 		                playerdeath = true;
 		                System.out.println(player +"'s "+ playerpoke + " has fainted!");
 		                System.out.println(player +" I... I lost.... I can't be the best anymore...");
-		                System.out.println(" . . . " + player +"has blacked out!");
+		                System.out.println(" . . . " + player +" has blacked out!");
 		                System.out.println("Restart the program to continue.");
 		                System.exit(0);
 		        }
@@ -886,7 +884,7 @@ public class PokemonADV {
 		                playerdeath = true;
 		                System.out.println(player +"'s "+ playerpoke + " has fainted!");
 		                System.out.println(player +" I... I lost.... I can't be the best anymore...");
-		                System.out.println(" . . . " + player +"has blacked out!");
+		                System.out.println(" . . . " + player +" has blacked out!");
 		                System.out.println("Restart the program to continue.");
 		                System.exit(0);
 		        }

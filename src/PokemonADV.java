@@ -210,7 +210,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2- 12;
 			        	}
 			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
-			            System.out.println("Your health is " + playerpokehealth2);
+			            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Ember")){
@@ -222,7 +222,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			            System.out.println("Your health is " + playerpokehealth2);
+			            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Growl")){
@@ -234,7 +234,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			        	System.out.println("Your health is " + playerpokehealth2);
+			        	if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else{
@@ -306,7 +306,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2- 12;
 			        	}
 			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
-			            System.out.println("Your health is " + playerpokehealth2);
+			            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Ember")){
@@ -318,7 +318,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			            System.out.println("Your health is " + playerpokehealth2);
+			            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Growl")){
@@ -330,7 +330,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			        	System.out.println("Your health is " + playerpokehealth2);
+			        	if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Flamethrower")){
@@ -342,7 +342,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			            System.out.println("Your health is " + playerpokehealth2);
+			            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else{
@@ -473,7 +473,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2- 12;
 			        	}
 			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
-			            System.out.println("Your health is " + playerpokehealth2);
+			            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Bubble Beam")){
@@ -485,7 +485,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			            System.out.println("Your health is " + playerpokehealth2);
+			            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Growl")){
@@ -497,7 +497,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			        	System.out.println("Your health is " + playerpokehealth2);
+			        	if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else{
@@ -569,7 +569,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2- 12;
 			        	}
 			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
-			            System.out.println("Your health is " + playerpokehealth2);
+			            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Bubble Beam")){
@@ -581,7 +581,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			            System.out.println("Your health is " + playerpokehealth2);
+			            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Growl")){
@@ -593,7 +593,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			        	System.out.println("Your health is " + playerpokehealth2);
+			        	if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Watergun")){
@@ -605,7 +605,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			        	System.out.println("Your health is " + playerpokehealth2);
+			        	if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else{
@@ -735,7 +735,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2- 12;
 			        	}
 			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
-			            System.out.println("Your health is " + playerpokehealth2);
+			            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Razor Leaf")){
@@ -747,7 +747,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			            System.out.println("Your health is " + playerpokehealth2);
+			            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Growl")){
@@ -759,7 +759,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			        	System.out.println("Your health is " + playerpokehealth2);
+			        	if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else{
@@ -827,7 +827,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2- 12;
 			        	}
 			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
-			            System.out.println("Your health is " + playerpokehealth2);
+			            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Razor Leaf")){
@@ -839,7 +839,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			            System.out.println("Your health is " + playerpokehealth2);
+			            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else if (moveset.equalsIgnoreCase("Growl")){
@@ -851,7 +851,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			        	System.out.println("Your health is " + playerpokehealth2);
+			        	if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 				
@@ -864,7 +864,7 @@ public class PokemonADV {
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
-			        	System.out.println("Your health is " + playerpokehealth2);
+			        	if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
 			            System.out.println(gymleader + "'s health is " + gymjpokehealth);
 			        }
 			        else{

@@ -354,7 +354,7 @@ public class PokemonADV {
 		        if (gymjpokehealth <= 0){
 		        		gymj = true;
 		                System.out.println(gymleader +"'s "+ gympoke + " has fainted!");
-		                System.out.println(player + ": THAT'S RIGHT, YOU RUN!");
+		                System.out.println(player + ": THAT'S RIGHT, YOU RUN! GET REKT M8!");
 		    			System.out.println(player + ": What?");
 		    			System.out.println(playerpoke + " is evolving!");
 		    			System.out.println("Congratulations your " + playerpoke + " has evolved to " + eve3);
@@ -374,7 +374,6 @@ public class PokemonADV {
 			}
 			
 			//battle ends with grunt
-			System.out.println(player + ": get rekt m8");
 			System.out.println(" - Home - ");
 			System.out.println("MOM: Honey you're home!");
 			
@@ -618,7 +617,7 @@ public class PokemonADV {
 		        if (gymjpokehealth <= 0){
 		        		gymj = true;
 		                System.out.println(gymleader +"'s "+ gympoke + " has fainted!");
-		                System.out.println(player + ": THAT'S RIGHT, YOU RUN!");
+		                System.out.println(player + ": THAT'S RIGHT, YOU RUN! GET REKT M8!");
 		    			System.out.println(player + ": What?");
 		    			System.out.println(playerpoke + " is evolving!");
 		    			System.out.println("Congratulations your " + playerpoke + " has evolved to " + eve3);
@@ -876,7 +875,7 @@ public class PokemonADV {
 		        if (gymjpokehealth <= 0){
 		        		gymj = true;
 		                System.out.println(gymleader +"'s "+ gympoke + " has fainted!");
-		                System.out.println(player + ": THAT'S RIGHT, YOU RUN!");
+		                System.out.println(player + ": THAT'S RIGHT, YOU RUN! GET REKT M8!");
 		    			System.out.println(player + ": What?");
 		    			System.out.println(playerpoke + " is evolving!");
 		    			System.out.println("Congratulations your " + playerpoke + " has evolved to " + eve3);
@@ -896,7 +895,6 @@ public class PokemonADV {
 			}
 			
 			//battle ends with grunt
-			System.out.println(player + ": get rekt m8");
 			System.out.println(" - Home - ");
 			System.out.println("MOM: Honey you're home!");
 			

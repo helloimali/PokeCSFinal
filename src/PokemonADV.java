@@ -457,6 +457,15 @@ public class PokemonADV {
 			int playerpokehealth2 = 20;
 			int gymjpokehealth = 20;
 			
+			System.out.println(player + ": Are you Hank Schrader?");
+			System.out.println(gymleader +": Well howdy partner!");
+			System.out.println(player + ": Hey, I'm here to challange you");
+			System.out.println(gymleader +": well that's sounds like a blast m8");
+			System.out.println(player + ": m8...really...");
+			System.out.println(gymleader +": Let me be hip, ok? Lets do this.");
+			
+			
+			
 			System.out.println(gymleader + " sent out " + gympoke);
 			System.out.println("You sent out " + playerpoke);
 			
@@ -717,6 +726,12 @@ public class PokemonADV {
 			
 			int playerpokehealth2 = 20;
 			int gymjpokehealth = 20;
+			System.out.println(player + ": Are you Walter White?");
+			System.out.println(gymleader +": No... I am GOD");
+			System.out.println(player + ": er.... did you help in the development of Hotline Miami?");
+			System.out.println(gymleader +": No... I did not...");
+			System.out.println(player + ": YOU'RE NO SPENCER YAN! YOU WISH YOU WERE A GOD.");
+			System.out.println(gymleader +": Alright alright, lets get this over with, I still need to coke.");
 			
 			System.out.println(gymleader + " sent out " + gympoke);
 			System.out.println("You sent out " + playerpoke);
@@ -730,7 +745,7 @@ public class PokemonADV {
 			        	gymjpokehealth = gymjpokehealth - 7;
 			        	if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			            System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			            System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2- 12;
 			        	}
 			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
@@ -742,7 +757,7 @@ public class PokemonADV {
 			        	gymjpokehealth = gymjpokehealth - 15;
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			        	System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
@@ -754,7 +769,7 @@ public class PokemonADV {
 		                System.out.println(playerpoke + "'s defense went down");
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			        	System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
@@ -771,6 +786,7 @@ public class PokemonADV {
 		        		gymj = true;
 		                System.out.println(gymleader +"'s "+ gympoke + " has fainted!");
 		                System.out.println(gymleader +": ...My God.... Here's you badge...");
+		                System.out.println(player +": *cough*   *Spencer_Yan   *cough*");
 		                System.out.println("You received the Crystal Badge!");
 		                System.out.println(playerpoke + " learned Vine Whip!");
 		    			System.out.println("What?");
@@ -822,7 +838,7 @@ public class PokemonADV {
 			        	gymjpokehealth = gymjpokehealth - 7;
 			        	if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			            System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			            System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2- 12;
 			        	}
 			            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
@@ -834,7 +850,7 @@ public class PokemonADV {
 			        	gymjpokehealth = gymjpokehealth - 15;
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			        	System.out.println(rivalname +"'s "+ rivalpoke + " used tackle!");
+			        	System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
@@ -846,7 +862,7 @@ public class PokemonADV {
 		                System.out.println(playerpoke + "'s defense went down");
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			        	System.out.println(rivalname +"'s "+ rivalpoke + " used Boulder Dash!");
+			        	System.out.println(gymleader +"'s "+ gympoke + " used Boulder Dash!");
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
@@ -859,7 +875,7 @@ public class PokemonADV {
 		                gymjpokehealth = gymjpokehealth - 20;
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			        	System.out.println(rivalname +"'s "+ rivalpoke + " used Glitch!");
+			        	System.out.println(gymleader +"'s "+ gympoke + " used Glitch!");
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }

@@ -9,7 +9,7 @@ public class PokemonADV {
 		
 		String player,playerpoke;
 		String charmander, squirtle, bulbasaur;
-		String choice1,choice2,choicepoke,moveset;
+		String choice1,choice2,choicepoke,moveset,choice3;
 		String badpeeps,badpoke,rivalname,rivalpoke,eve2,eve3;
 		boolean playerdeath,rivaldeath,gymj,gymh,gymw;
 		
@@ -374,10 +374,43 @@ public class PokemonADV {
 			}
 			
 			//battle ends with grunt
+			
 			System.out.println(" - Home - ");
 			System.out.println("MOM: Honey you're home!");
+			System.out.println(player + ": Yup! I just beat a gym leader and got a badge!");
+			System.out.println("MOM: Good job kiddo! Where are you gonna go now!");
+			System.out.println(player + ": ... that's a good question... Let me ask " +rivalname);
+			System.out.println(player + ": Hey " + rivalname + ", I just beat the gym leader Oak told me to challange!");
+			System.out.println(rivalname + ": DUDE THAT'S AWESOME!");
+			System.out.println(player + ": It is... but I don't know where to go after that");
+			System.out.println(rivalname + ": You should challange the Pokemon champion!");
+			System.out.println(player + ": Oh yea! That's a good idea! I'll go right now!");
+			System.out.println(rivalname + ": GOOD LUCK!");
+			System.out.println(" - Pokemon League - ");
+			System.out.println(player + ": I'm finally here... the Pokemon League... I wonder who the Pokemon Master is...");
+			System.out.println("  -  * You open the doors*  -  ");
+			System.out.println(".");
+			System.out.println(".");
+			System.out.println(".");
+			System.out.println(".");
+			System.out.println(".");
+			System.out.println(player + ": ...No way...");
+			System.out.println("???: Welcome home...son");
+			System.out.println(player + ": You...you peice of s-");
+			System.out.println("rage boils inside of your heart... Will you 'attack' your father, or will you 'calm down'");
 			
+			choice3 = input.nextLine();
 			
+			if(choicepoke.equalsIgnoreCase("attack")){
+				
+			}
+			else if (choicepoke.equalsIgnoreCase("calm down")){
+				
+			}
+			else {
+				 System.out.println("Please type in 'calm down' or 'attack'. Restart the program to continue.");
+	             System.exit(0);
+			}
 		}
 		
 		//end charmander

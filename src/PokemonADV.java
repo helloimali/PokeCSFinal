@@ -875,7 +875,7 @@ public class PokemonADV {
 		                gymjpokehealth = gymjpokehealth - 20;
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth >= 0){
-			        	System.out.println(gymleader +"'s "+ gympoke + " used Glitch!");
+			        	System.out.println(gymleader +"'s "+ gympoke + " used Rock Scratch!");
 			            playerpokehealth2 = playerpokehealth2 - 12;
 			        	}
 			        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }

@@ -1545,3 +1545,6 @@ public class PokemonADV {
 	}
 
 }
+
+//Game Made by: Ali Malik
+//Game Videotaped by: Kevin Wong

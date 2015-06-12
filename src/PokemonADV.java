@@ -633,6 +633,7 @@ public class PokemonADV {
 				if (rivalpokehealth <= 0){
 					rivaldeath = true;
 					System.out.println(rivalname +"'s "+ rivalpoke + " has fainted!");
+					System.out.println(playerpoke + " learned Bubble Beam!");
 					System.out.println(rivalname +": Wow, you're so strong!");
 				}
 				else if (playerpokehealth <= 0){
@@ -1108,6 +1109,7 @@ public class PokemonADV {
 				if (rivalpokehealth <= 0){
 					rivaldeath = true;
 					System.out.println(rivalname +"'s "+ rivalpoke + " has fainted!");
+					System.out.println(playerpoke + " learned Razor Leaf!");
 					System.out.println(rivalname +": Wow, you're so strong!");
 				}
 				else if (playerpokehealth <= 0){

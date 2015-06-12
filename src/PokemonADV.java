@@ -383,7 +383,7 @@ public class PokemonADV {
 			System.out.println(" * you call " + rivalname + " on the phone * ");
 			System.out.println(player + ": Hey " + rivalname + ", I just beat the gym leader Oak told me to challange!");
 			System.out.println(rivalname + ": DUDE THAT'S AWESOME!");
-			System.out.println(player + ": It is... but I don't know where to go after that");
+			System.out.println(player + ": It is... but I don't know where to go after that...");
 			System.out.println(rivalname + ": You should challange the Pokemon champion!");
 			System.out.println(player + ": Oh yea! That's a good idea! I'll go right now!");
 			System.out.println(rivalname + ": GOOD LUCK!");
@@ -396,7 +396,7 @@ public class PokemonADV {
 			System.out.println(".");
 			System.out.println(".");
 			System.out.println(player + ": ...No way...");
-			System.out.println("???: Welcome home...son");
+			System.out.println("???: Welcome... son");
 			System.out.println(player + ": You...you peice of s-");
 			System.out.println("rage boils inside of your heart... Will you 'attack' your father, or will you 'calm down'");
 			
@@ -862,7 +862,7 @@ public class PokemonADV {
 			System.out.println(" * you call " + rivalname + " on the phone * ");
 			System.out.println(player + ": Hey " + rivalname + ", I just beat the gym leader Oak told me to challange!");
 			System.out.println(rivalname + ": DUDE THAT'S AWESOME!");
-			System.out.println(player + ": It is... but I don't know where to go after that");
+			System.out.println(player + ": It is... but I don't know where to go after that...");
 			System.out.println(rivalname + ": You should challange the Pokemon champion!");
 			System.out.println(player + ": Oh yea! That's a good idea! I'll go right now!");
 			System.out.println(rivalname + ": GOOD LUCK!");
@@ -875,7 +875,7 @@ public class PokemonADV {
 			System.out.println(".");
 			System.out.println(".");
 			System.out.println(player + ": ...No way...");
-			System.out.println("???: Welcome home...son");
+			System.out.println("???: Welcome... son");
 			System.out.println(player + ": You...you peice of s-");
 			System.out.println("rage boils inside of your heart... Will you 'attack' your father, or will you 'calm down'");
 			
@@ -1334,7 +1334,7 @@ public class PokemonADV {
 			System.out.println(" * you call " + rivalname + " on the phone * ");
 			System.out.println(player + ": Hey " + rivalname + ", I just beat the gym leader Oak told me to challange!");
 			System.out.println(rivalname + ": DUDE THAT'S AWESOME!");
-			System.out.println(player + ": It is... but I don't know where to go after that");
+			System.out.println(player + ": It is... but I don't know where to go after that...");
 			System.out.println(rivalname + ": You should challange the Pokemon champion!");
 			System.out.println(player + ": Oh yea! That's a good idea! I'll go right now!");
 			System.out.println(rivalname + ": GOOD LUCK!");
@@ -1347,7 +1347,7 @@ public class PokemonADV {
 			System.out.println(".");
 			System.out.println(".");
 			System.out.println(player + ": ...No way...");
-			System.out.println("???: Welcome home...son");
+			System.out.println("???: Welcome... son");
 			System.out.println(player + ": You...you peice of s-");
 			System.out.println("rage boils inside of your heart... Will you 'attack' your father, or will you 'calm down'");
 			

@@ -572,17 +572,6 @@ public class PokemonADV {
 				}
 				
 				//battle ends with master
-
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
 				
 			}
 			else {
@@ -862,6 +851,208 @@ public class PokemonADV {
 			
 			System.out.println(" - Home - ");
 			System.out.println("MOM: Honey you're home!");
+			System.out.println(player + ": Yup! I just beat a gym leader and got a badge!");
+			System.out.println("MOM: Good job kiddo! Where are you gonna go now!");
+			System.out.println(player + ": ... that's a good question... Let me ask " +rivalname);
+			System.out.println(player + ": Hey " + rivalname + ", I just beat the gym leader Oak told me to challange!");
+			System.out.println(rivalname + ": DUDE THAT'S AWESOME!");
+			System.out.println(player + ": It is... but I don't know where to go after that");
+			System.out.println(rivalname + ": You should challange the Pokemon champion!");
+			System.out.println(player + ": Oh yea! That's a good idea! I'll go right now!");
+			System.out.println(rivalname + ": GOOD LUCK!");
+			System.out.println(" - Pokemon League - ");
+			System.out.println(player + ": I'm finally here... the Pokemon League... I wonder who the Pokemon Master is...");
+			System.out.println("  -  * You open the doors*  -  ");
+			System.out.println(".");
+			System.out.println(".");
+			System.out.println(".");
+			System.out.println(".");
+			System.out.println(".");
+			System.out.println(player + ": ...No way...");
+			System.out.println("???: Welcome home...son");
+			System.out.println(player + ": You...you peice of s-");
+			System.out.println("rage boils inside of your heart... Will you 'attack' your father, or will you 'calm down'");
+			
+			choice3 = input.nextLine();
+			
+			if(choicepoke.equalsIgnoreCase("attack")){
+				System.out.println(player + ": You were here... this entire time?");
+				System.out.println(player + ": You could have helped me and mom out...");
+				System.out.println("FATHER: Now now... what was I supposed to do...? You left me-");
+				System.out.println(player + ": THAT'S A LIE, YOU LEFT US");
+				System.out.println("  * You run to your father, in an attempt to punch him*  ");
+				System.out.println(" * Your father moves to the side and puts you into a choke hold * ");
+				System.out.println(" * With his other hand, he pulls out his cell phone and calls the police * ");
+				System.out.println(" * The police come to arrest you * ");
+				System.out.println("POLICE: You're coming with us sonny");
+				System.out.println("Will you 'run away' or 'let them take you'");
+				choice3 = input.nextLine();
+				
+				if(choice3.equalsIgnoreCase("run away")){
+					System.out.println(" * You break free and run away * ");
+					System.out.println(" * You run out of the building and hide in a shack for a copuple of days* ");
+					System.out.println(" * You come out of hiding, and realise you're a fugitive for attacking the champion  * ");
+					System.out.println(player + ": ... I can't go anywhere");
+					System.out.println(player + ": MOM and " +rivalname + " probably hate me");
+					System.out.println(player + ": ... I have nowhere to go");
+					System.out.println(player + ": ... I...I...I guess I have to do this");
+					System.out.println(" * You start crying, regretting the attack * ");
+					System.out.println(player +": " +playerpoke + "I choose you...");
+					System.out.println(player +": " +playerpoke + "...Use Tackel on me... and then run away");
+					System.out.println(player +": " +playerpoke + "goodbye...");
+					System.out.println(". . .");
+					System.out.println(" Game Made by: Ali Malik");
+					System.out.println(" Game videotaped by: Kevin Wong");
+					
+				}
+				else if(choice3.equalsIgnoreCase("let them take you")){
+					System.out.println(" * You let them take you * ");
+					System.out.println(player + ": I.. I'm sorry");
+					System.out.println("COP: Tell it to the judge");
+					System.out.println( " * " + player +" will be spending the rest of his life in jail * ");
+					System.out.println(". . .");
+					System.out.println(" Game Made by: Ali Malik");
+					System.out.println(" Game Videotaped by: Kevin Wong");
+				}
+				else{
+					 System.out.println("Please type in 'run away' or 'let them take you'. Restart the program to continue.");
+		             System.exit(0);
+				}
+			}
+			else if (choice3.equalsIgnoreCase("calm down")){
+				System.out.println(" * you breathe in and out to calm down * ");
+				System.out.println(" I'm all fired up now... I WILL beat you...");
+				System.out.println("DAD : heh.... In your dreams");
+				
+				//battle start with master
+				
+				
+				
+				playerdeath = false;
+				gymj = false;
+				gymleader = "DAD";
+				gympoke = "Salamence";
+				
+				playerpokehealth2 = 45;
+				gymjpokehealth = 60;
+				
+				System.out.println(gymleader + " challanges you ");
+				System.out.println(gymleader + " sent out " + gympoke);
+				System.out.println("You sent out " + playerpoke);
+				
+				while(playerdeath == false && gymj == false){
+			        System.out.println("What will " + playerpoke + " do!");
+			        System.out.println("Moves: 'Pound', 'Bubble Beam', 'Watergun' , or 'Growl'");
+					moveset = input.nextLine();
+					if (moveset.equalsIgnoreCase("Pound")){
+				        	System.out.println( playerpoke + " used Pound!");
+				        	gymjpokehealth = gymjpokehealth - 7;
+				        	if (gymjpokehealth <= 0){gymjpokehealth = 0; }
+				        	if (gymjpokehealth >= 0){
+				        		System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
+				        		playerpokehealth2 = playerpokehealth2- 12;
+				        	}
+				            if (playerpokehealth2 <= 0){playerpokehealth2 = 0; } //if it's less than 0, health goes to 0
+				            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
+				            System.out.println(gymleader + "'s health is " + gymjpokehealth);
+				        }
+				        else if (moveset.equalsIgnoreCase("Bubble Beam")){
+				        	System.out.println( playerpoke + " used Bubble Beam!");
+				        	gymjpokehealth = gymjpokehealth - 15;
+			                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
+				        	if (gymjpokehealth >= 0){
+				        		System.out.println(gymleader +"'s "+ gympoke + " used Scratch!");
+				        		playerpokehealth2 = playerpokehealth2 - 12;
+				        	}
+				        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
+				            if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
+				            System.out.println(gymleader + "'s health is " + gymjpokehealth);
+				        }
+				        else if (moveset.equalsIgnoreCase("Growl")){
+			                System.out.println(playerpoke + " used Growl!");
+			                System.out.println(playerpoke + "'s defense went down");
+			                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
+				        	if (gymjpokehealth >= 0){
+				        		System.out.println(gymleader +"'s "+ gympoke + " used Air dash!");
+				            playerpokehealth2 = playerpokehealth2 - 12;
+				        	}
+				        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
+				        	if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
+				            System.out.println(gymleader + "'s health is " + gymjpokehealth);
+				        }
+				        else if (moveset.equalsIgnoreCase("Watergun")){
+			                System.out.println(playerpoke + " used Watergun!");
+			                gymjpokehealth = gymjpokehealth - 20;
+			                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
+				        	if (gymjpokehealth >= 0){
+				        		System.out.println(gymleader +"'s "+ gympoke + " used Scratch!");
+				            playerpokehealth2 = playerpokehealth2 - 12;
+				        	}
+				        	if (playerpokehealth2 <= 0){playerpokehealth2 = 0; }
+				        	if (playerpokehealth2 > 0){System.out.println("Your health is " + playerpokehealth2);}
+				            System.out.println(gymleader + "'s health is " + gymjpokehealth);
+				        }
+				        else{
+				                System.out.println("Please type in 'Pound', 'Bubble Beam','Watergun', or 'Growl'. Restart the program to continue.");
+				                System.exit(0);
+				        }
+
+			        //check death
+			        if (gymjpokehealth <= 0){
+			        		gymj = true;
+			                System.out.println(gymleader +"'s "+ gympoke + " has fainted!");
+			                System.out.println("DAD: what... how did I lose");
+			                System.out.println(player + ": Easy. You suck. Leave this League. I am the master now.");
+			                System.out.println(" * DAD walks out with shame. * ");
+			                System.out.println(" * You decide to call your mother and your rival * ");
+			                System.out.println(player + ": Hey mom!");
+			                System.out.println("MOM: OH HONEY HELLOOOOO!");
+			                System.out.println(player + ": Guess who kicked dads butt and became pokemon champion");
+			                System.out.println("MOM: OH HONEY I'M SO PROUD OF YOU!");
+			                System.out.println(player + ": Thanks MOM! I couldn't do it without you...");
+			                System.out.println("MOM: You should tell " + rivalname);
+			                System.out.println(player + ": That's a good idea! Let me call him now! Bye MOM!");
+			                System.out.println(" * you hang up the phone and dial " + rivalname + "'s number");
+			                System.out.println(rivalname + ": Hello?");
+			                System.out.println(player + ": Dude... Guess what");
+			                System.out.println(rivalname + ": Hmmmm?");
+			                System.out.println(player + ": I'm Pokemon Champion now!");
+			                System.out.println(rivalname + ": REALLY? NO WAY! CONGRATULATIONS!!");
+			                System.out.println(player + ": Thanks man!");
+			                System.out.println(rivalname + ": ...but... I hate to break this to you but...");
+			                System.out.println(player + ": ...?");
+			                System.out.println(rivalname + ": I'm about to take that title away from you");
+			                System.out.println(player + ": OH YOU'RE ON!");
+							System.out.println(" Game Made by: Ali Malik");
+							System.out.println(" Game Videotaped by: Kevin Wong");
+			                System.exit(0);
+			        }
+			        else if (playerpokehealth2 <= 0){
+			                playerdeath = true;
+			                System.out.println(player +" I... I lost.... I can't be the best anymore...");
+			                System.out.println("DAD: Go home kid... You lost");
+			                System.out.println(" * you walk back home, in utter despair * ");
+			                System.out.println("MOM: oh you're home! What happened!");
+			                System.out.println(player + ": I...I lost...");
+			                System.out.println("MOM: That's alright honey! You can't always win right?");
+			                System.out.println(player + ": ...I lost...to dad");
+			                System.out.println(" * MOM walks towards you and gives you a hug * ");
+			                System.out.println("MOM: It's alright, shhhh...");
+			                System.exit(0);
+			        }
+			//end death check
+					
+					
+				}
+				
+				//battle ends with master
+				
+			}
+			else {
+				 System.out.println("Please type in 'calm down' or 'attack'. Restart the program to continue.");
+	             System.exit(0);
+			}
+			//end
 			
 		}
 		//end squirtle

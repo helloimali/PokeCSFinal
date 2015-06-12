@@ -402,12 +402,12 @@ public class PokemonADV {
 			
 			choice3 = input.nextLine();
 			
-			if(choicepoke.equalsIgnoreCase("attack")){
+			if(choice3.equalsIgnoreCase("attack")){
 				System.out.println(player + ": You were here... this entire time?");
 				System.out.println(player + ": You could have helped me and mom out...");
 				System.out.println("FATHER: Now now... what was I supposed to do...? You left me-");
 				System.out.println(player + ": THAT'S A LIE, YOU LEFT US");
-				System.out.println("  * You run to your father, in an attempt to punch him*  ");
+				System.out.println(" * You run to your father, in an attempt to punch him*  ");
 				System.out.println(" * Your father moves to the side and puts you into a choke hold * ");
 				System.out.println(" * With his other hand, he pulls out his cell phone and calls the police * ");
 				System.out.println(" * The police come to arrest you * ");
@@ -881,12 +881,12 @@ public class PokemonADV {
 			
 			choice3 = input.nextLine();
 			
-			if(choicepoke.equalsIgnoreCase("attack")){
+			if(choice3.equalsIgnoreCase("attack")){
 				System.out.println(player + ": You were here... this entire time?");
 				System.out.println(player + ": You could have helped me and mom out...");
 				System.out.println("FATHER: Now now... what was I supposed to do...? You left me-");
 				System.out.println(player + ": THAT'S A LIE, YOU LEFT US");
-				System.out.println("  * You run to your father, in an attempt to punch him*  ");
+				System.out.println(" * You run to your father, in an attempt to punch him*  ");
 				System.out.println(" * Your father moves to the side and puts you into a choke hold * ");
 				System.out.println(" * With his other hand, he pulls out his cell phone and calls the police * ");
 				System.out.println(" * The police come to arrest you * ");
@@ -1353,12 +1353,12 @@ public class PokemonADV {
 			
 			choice3 = input.nextLine();
 			
-			if(choicepoke.equalsIgnoreCase("attack")){
+			if(choice3.equalsIgnoreCase("attack")){
 				System.out.println(player + ": You were here... this entire time?");
 				System.out.println(player + ": You could have helped me and mom out...");
 				System.out.println("FATHER: Now now... what was I supposed to do...? You left me-");
 				System.out.println(player + ": THAT'S A LIE, YOU LEFT US");
-				System.out.println("  * You run to your father, in an attempt to punch him*  ");
+				System.out.println(" * You run to your father, in an attempt to punch him*  ");
 				System.out.println(" * Your father moves to the side and puts you into a choke hold * ");
 				System.out.println(" * With his other hand, he pulls out his cell phone and calls the police * ");
 				System.out.println(" * The police come to arrest you * ");

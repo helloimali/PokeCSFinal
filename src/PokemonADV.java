@@ -564,6 +564,8 @@ public class PokemonADV {
 			                System.out.println(player + ": ...I lost...to dad");
 			                System.out.println(" * MOM walks towards you and gives you a hug * ");
 			                System.out.println("MOM: It's alright, shhhh...");
+							System.out.println(" Game Made by: Ali Malik");
+							System.out.println(" Game Videotaped by: Kevin Wong");
 			                System.exit(0);
 			        }
 			//end death check
@@ -1038,6 +1040,8 @@ public class PokemonADV {
 			                System.out.println(player + ": ...I lost...to dad");
 			                System.out.println(" * MOM walks towards you and gives you a hug * ");
 			                System.out.println("MOM: It's alright, shhhh...");
+							System.out.println(" Game Made by: Ali Malik");
+							System.out.println(" Game Videotaped by: Kevin Wong");
 			                System.exit(0);
 			        }
 			//end death check

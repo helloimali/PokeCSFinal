@@ -1141,7 +1141,7 @@ public class PokemonADV {
 			System.out.println(player + ": er.... did you help in the development of Hotline Miami?");
 			System.out.println(gymleader +": No... I did not...");
 			System.out.println(player + ": YOU'RE NO SPENCER YAN! YOU WISH YOU WERE A GOD.");
-			System.out.println(gymleader +": Alright alright, lets get this over with, I still need to coke.");
+			System.out.println(gymleader +": Alright alright, lets get this over with, I still need to cook.");
 			
 			System.out.println(gymleader + " sent out " + gympoke);
 			System.out.println("You sent out " + playerpoke);

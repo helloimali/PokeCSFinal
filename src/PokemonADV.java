@@ -379,7 +379,7 @@ public class PokemonADV {
 			System.out.println("MOM: Honey you're home!");
 			System.out.println(player + ": Yup! I just beat a gym leader and got a badge!");
 			System.out.println("MOM: Good job kiddo! Where are you gonna go now!");
-			System.out.println(player + ": ... that's a good question... Let me ask " +rivalname);
+			System.out.println(player + ": ... that's a good question... Let me ask " +rivalname +"." );
 			System.out.println(player + ": Hey " + rivalname + ", I just beat the gym leader Oak told me to challange!");
 			System.out.println(rivalname + ": DUDE THAT'S AWESOME!");
 			System.out.println(player + ": It is... but I don't know where to go after that");
@@ -857,7 +857,7 @@ public class PokemonADV {
 			System.out.println("MOM: Honey you're home!");
 			System.out.println(player + ": Yup! I just beat a gym leader and got a badge!");
 			System.out.println("MOM: Good job kiddo! Where are you gonna go now!");
-			System.out.println(player + ": ... that's a good question... Let me ask " +rivalname);
+			System.out.println(player + ": ... that's a good question... Let me ask " +rivalname +"." );
 			System.out.println(player + ": Hey " + rivalname + ", I just beat the gym leader Oak told me to challange!");
 			System.out.println(rivalname + ": DUDE THAT'S AWESOME!");
 			System.out.println(player + ": It is... but I don't know where to go after that");
@@ -1328,7 +1328,7 @@ public class PokemonADV {
 			System.out.println("MOM: Honey you're home!");
 			System.out.println(player + ": Yup! I just beat a gym leader and got a badge!");
 			System.out.println("MOM: Good job kiddo! Where are you gonna go now!");
-			System.out.println(player + ": ... that's a good question... Let me ask " +rivalname);
+			System.out.println(player + ": ... that's a good question... Let me ask " +rivalname +"." );
 			System.out.println(player + ": Hey " + rivalname + ", I just beat the gym leader Oak told me to challange!");
 			System.out.println(rivalname + ": DUDE THAT'S AWESOME!");
 			System.out.println(player + ": It is... but I don't know where to go after that");

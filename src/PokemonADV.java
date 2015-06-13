@@ -1079,7 +1079,7 @@ public class PokemonADV {
 			playerpoke = "Bulbasaur";
 			rivalpoke = "Charmander";
 			eve2 = "Ivysaur";
-			eve3 = "Bulbasaur";
+			eve3 = "Venusaur";
 			
 			
 			System.out.println(rivalname + ": Hey " + player + ", we should battle!");

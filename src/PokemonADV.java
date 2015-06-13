@@ -25,7 +25,7 @@ public class PokemonADV {
 		System.out.println("OAK: First, are you a 'boy' or a 'girl'?");
 		Scanner input = new Scanner(System.in);
 		player = input.nextLine();
-		if (player != "boy" && player != "girl"){
+		if (!player.equals("boy") && !player.equals("girl")){
 			System.out.println("Don't lie to me");
 			System.out.println("Restart the program to continue");
 			System.exit(0);

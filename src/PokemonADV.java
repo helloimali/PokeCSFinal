@@ -149,7 +149,7 @@ public class PokemonADV {
 				}
 				else if (moveset.equalsIgnoreCase("Growl")){
 					System.out.println(playerpoke + " used Growl!");
-					System.out.println(playerpoke + "'s defense went down");
+					System.out.println(rivalpoke + "'s defense went down");
 					System.out.println(rivalname +"'s "+ rivalpoke + " used Growl!");
 					System.out.println(playerpoke + "'s defense went down");
 					System.out.println("Your health is " + playerpokehealth);
@@ -233,7 +233,7 @@ public class PokemonADV {
 			        }
 			        else if (moveset.equalsIgnoreCase("Growl")){
 		                System.out.println(playerpoke + " used Growl!");
-		                System.out.println(playerpoke + "'s defense went down");
+		                System.out.println(gympoke + "'s defense went down");
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth > 0){
 			        	System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
@@ -329,7 +329,7 @@ public class PokemonADV {
 			        }
 			        else if (moveset.equalsIgnoreCase("Growl")){
 		                System.out.println(playerpoke + " used Growl!");
-		                System.out.println(playerpoke + "'s defense went down");
+		                System.out.println(gympoke + "'s defense went down");
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth > 0){
 			        	System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
@@ -504,7 +504,7 @@ public class PokemonADV {
 				        }
 				        else if (moveset.equalsIgnoreCase("Growl")){
 			                System.out.println(playerpoke + " used Growl!");
-			                System.out.println(playerpoke + "'s defense went down");
+			                System.out.println(gympoke + "'s defense went down");
 			                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 				        	if (gymjpokehealth > 0){
 				        	System.out.println(gymleader +"'s "+ gympoke + " used slash!");
@@ -625,7 +625,7 @@ public class PokemonADV {
 				}
 				else if (moveset.equalsIgnoreCase("Growl")){
 					System.out.println(playerpoke + " used Growl!");
-					System.out.println(playerpoke + "'s defense went down");
+					System.out.println(rivalpoke + "'s defense went down");
 					System.out.println(rivalname +"'s "+ rivalpoke + " used Growl!");
 					System.out.println(playerpoke + "'s defense went down");
 					System.out.println("Your health is " + playerpokehealth);
@@ -712,7 +712,7 @@ public class PokemonADV {
 			        }
 			        else if (moveset.equalsIgnoreCase("Growl")){
 		                System.out.println(playerpoke + " used Growl!");
-		                System.out.println(playerpoke + "'s defense went down");
+		                System.out.println(gympoke + "'s defense went down");
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth > 0){
 			        	System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
@@ -808,7 +808,7 @@ public class PokemonADV {
 			        }
 			        else if (moveset.equalsIgnoreCase("Growl")){
 		                System.out.println(playerpoke + " used Growl!");
-		                System.out.println(playerpoke + "'s defense went down");
+		                System.out.println(gympoke + "'s defense went down");
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth > 0){
 			        		System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
@@ -983,7 +983,7 @@ public class PokemonADV {
 				        }
 				        else if (moveset.equalsIgnoreCase("Growl")){
 			                System.out.println(playerpoke + " used Growl!");
-			                System.out.println(playerpoke + "'s defense went down");
+			                System.out.println(gympoke + "'s defense went down");
 			                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 				        	if (gymjpokehealth > 0){
 				        		System.out.println(gymleader +"'s "+ gympoke + " used Air dash!");
@@ -1103,7 +1103,7 @@ public class PokemonADV {
 				}
 				else if (moveset.equalsIgnoreCase("Growl")){
 					System.out.println(playerpoke + " used Growl!");
-					System.out.println(playerpoke + "'s defense went down");
+					System.out.println(rivalpoke + "'s defense went down");
 					System.out.println(rivalname +"'s "+ rivalpoke + " used Growl!");
 					System.out.println(playerpoke + "'s defense went down");
 					System.out.println("Your health is " + playerpokehealth);
@@ -1186,7 +1186,7 @@ public class PokemonADV {
 			        }
 			        else if (moveset.equalsIgnoreCase("Growl")){
 		                System.out.println(playerpoke + " used Growl!");
-		                System.out.println(playerpoke + "'s defense went down");
+		                System.out.println(gympoke + "'s defense went down");
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth > 0){
 			        	System.out.println(gymleader +"'s "+ gympoke + " used tackle!");
@@ -1279,7 +1279,7 @@ public class PokemonADV {
 			        }
 			        else if (moveset.equalsIgnoreCase("Growl")){
 		                System.out.println(playerpoke + " used Growl!");
-		                System.out.println(playerpoke + "'s defense went down");
+		                System.out.println(gympoke + "'s defense went down");
 		                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 			        	if (gymjpokehealth > 0){
 			        	System.out.println(gymleader +"'s "+ gympoke + " used Boulder Dash!");
@@ -1456,7 +1456,7 @@ public class PokemonADV {
 				        }
 				        else if (moveset.equalsIgnoreCase("Growl")){
 			                System.out.println(playerpoke + " used Growl!");
-			                System.out.println(playerpoke + "'s defense went down");
+			                System.out.println(gympoke + "'s defense went down");
 			                if (gymjpokehealth <= 0){gymjpokehealth = 0; }
 				        	if (gymjpokehealth > 0){
 				        	System.out.println(gymleader +"'s "+ gympoke + " used Boulder Dash!");

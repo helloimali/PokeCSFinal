@@ -270,7 +270,7 @@ public class PokemonADV {
 			//finish while statement for gym
 			
 			//start walk to forest
-			System.out.println(player + ": Alright time to ho home!");
+			System.out.println(player + ": Alright time to go home!");
 			System.out.println(" - Algarm Forest - ");
 			System.out.println("???: STOP RIGHT THERE!");
 			System.out.println(player + ": ...?");
@@ -749,7 +749,7 @@ public class PokemonADV {
 			//finish while statement for gym
 			
 			//start walk to forest
-			System.out.println(player + ": Alright time to ho home!");
+			System.out.println(player + ": Alright time to go home!");
 			System.out.println(" - Algarm Forest - ");
 			System.out.println("???: STOP RIGHT THERE!");
 			System.out.println(player + ": ...?");
@@ -1223,7 +1223,7 @@ public class PokemonADV {
 			
 			//finish while statement for gym
 			//start walk to forest
-			System.out.println(player + ": Alright time to ho home!");
+			System.out.println(player + ": Alright time to go home!");
 			System.out.println(" - Algarm Forest - ");
 			System.out.println("???: STOP RIGHT THERE!");
 			System.out.println(player + ": ...?");

@@ -426,7 +426,7 @@ public class PokemonADV {
 					System.out.println(" * You start crying, regretting the attack * ");
 					System.out.println(player +": " +playerpoke + " I choose you...");
 					System.out.println(player +": " +playerpoke + " ...Use Tackel on me... and then run away");
-					System.out.println(player +": " +playerpoke + " goodbye...");
+					System.out.println(player +": . . . goodbye world ...");
 					System.out.println(". . .");
 					System.out.println(" Game Made by: Ali Malik");
 					System.out.println(" Game videotaped by: Kevin Wong");
@@ -905,7 +905,7 @@ public class PokemonADV {
 					System.out.println(" * You start crying, regretting the attack * ");
 					System.out.println(player +": " +playerpoke + " I choose you...");
 					System.out.println(player +": " +playerpoke + " ...Use Tackel on me... and then run away");
-					System.out.println(player +": " +playerpoke + " goodbye...");
+					System.out.println(player +": . . . goodbye world ...");
 					System.out.println(". . .");
 					System.out.println(" Game Made by: Ali Malik");
 					System.out.println(" Game videotaped by: Kevin Wong");
@@ -1377,7 +1377,7 @@ public class PokemonADV {
 					System.out.println(" * You start crying, regretting the attack * ");
 					System.out.println(player +": " +playerpoke + " I choose you...");
 					System.out.println(player +": " +playerpoke + " ...Use Tackel on me... and then run away");
-					System.out.println(player +": " +playerpoke + " goodbye...");
+					System.out.println(player +": . . . goodbye world ...");
 					System.out.println(". . .");
 					System.out.println(" Game Made by: Ali Malik");
 					System.out.println(" Game videotaped by: Kevin Wong");

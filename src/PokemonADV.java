@@ -22,11 +22,11 @@ public class PokemonADV {
 		System.out.println("OAK: ...by creatures called pokemon!");
 		System.out.println("OAK: Some people keep pokemon as pets!");
 		System.out.println("OAK: I spend my life studying them.");
-		System.out.println("OAK: First, are you a 'boy' or a 'girl'?");
+		System.out.println("OAK: First, are you a 'boy', a 'girl', or would you rather prefer 'other'?");
 		Scanner input = new Scanner(System.in);
 		player = input.nextLine();
-		if (!player.equals("boy") && !player.equals("girl")){
-			System.out.println("Don't lie to me");
+		if (!player.equals("boy") && !player.equals("girl") && !player.equals("other")){
+			System.out.println("Please pick 'boy' or 'girl'. If you do not associate with a gender, then type 'other'.");
 			System.out.println("Restart the program to continue");
 			System.exit(0);
 		}
